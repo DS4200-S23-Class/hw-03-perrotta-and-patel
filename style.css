@@ -1,0 +1,25 @@
+/* Fonts to Arial*/
+
+body {
+	font-family: Arial;
+}
+
+/* Centering the header */
+.header {
+	text-align: center;
+}
+
+/* Left side column for images */
+.img_left {
+	width: 50%;
+	height: auto;
+	display: flex;
+	flex-shrink:3;
+	flex-direction: column;
+}
+
+/* Right side column for text */
+.flex-right {
+	flex-direction:column;
+	width: 50%;
+}
