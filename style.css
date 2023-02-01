@@ -9,6 +9,12 @@ body {
 	text-align: center;
 }
 
+/* Flex Box with two columns */
+.f_box {
+	display: flex;
+	flex-direction: row;
+}
+
 /* Left side column for images */
 .img_left {
 	width: 50%;
@@ -19,7 +25,8 @@ body {
 }
 
 /* Right side column for text */
-.flex-right {
+.txt_right {
 	flex-direction:column;
-	width: 50%;
+	width: 100%;
 }
+
