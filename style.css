@@ -15,6 +15,11 @@ body {
 	flex-direction: row;
 }
 
+.image-size {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
 /* Left side column for images */
 .img_left {
 	width: 50%;
