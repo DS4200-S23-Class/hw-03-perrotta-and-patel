@@ -1,3 +1,4 @@
+//initializing a variable count to toggle between clicked and not clicked 
 let count = 0;
 
 // updates the counter each time the button is clicked 
@@ -9,6 +10,7 @@ function showContributors() {
         count = 1;
     }
 
+    // If the button is clicked again, the contributors are hidden
     else {
         let newText = "Contributors are hidden";
         let buttonDiv = document.getElementById("button-div");
